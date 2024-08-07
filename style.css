@@ -34,7 +34,8 @@ padding: 0%;
 } 
 
  a  { text-decoration: none;
-    color:black
+    color:black;
+    text-shadow: 1px 1px 1px white;
 }
 ul li {display: inline-block;
      font-size: 20px; 
@@ -60,7 +61,11 @@ align-items: center;
 }
 /* third part start here */
 .section2{
-    width:100%
+    width:100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
 }
 .banner2{ background-image:url(b2-3.webp) ;
     background-size: cover;
