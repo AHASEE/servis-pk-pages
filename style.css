@@ -1,0 +1,194 @@
+*{margin: 0%;
+padding: 0%;
+}
+.contianer{
+     width: 100%;
+     overflow-x: hidden;
+}
+.navbar {  
+    display: flex;
+    justify-content:space-evenly;
+    position: fixed;
+    width: 100%;
+   
+
+}
+.logo{ width: 40%;
+}
+.manubar{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 40px;
+    margin-left: 15px;
+}
+.logo img{ margin-top: 20px; width: 60%;
+    margin-bottom: 5px;padding-left: 30px;
+
+}
+ .header{ background-image: url(./ndure-banner-dimensions.webp);
+    background-size: cover;
+    width:100%;
+    height: 605px;
+    margin-bottom: 10px;
+    
+} 
+
+ a  { text-decoration: none;
+    color:black
+}
+ul li {display: inline-block;
+     font-size: 20px; 
+     margin: 10px;
+     margin-left: 30px;
+}
+.searchbar{ display: flex;
+    justify-content: flex-end;
+    width: 60%;
+flex-wrap: wrap;
+align-items: center;
+}
+.icon{ margin: 20px;
+}
+/* mp4 start here */
+
+
+.videopart{  margin: 0%;
+    margin-bottom: 30px;
+}
+.mobile-video{
+    display: none;
+}
+/* third part start here */
+.section2{
+    width:100%
+}
+.banner2{ background-image:url(b2-3.webp) ;
+    background-size: cover;
+    width: 100%;
+    height: 645px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+/* FOOTER STATR HERE */
+
+
+.text{ text-align: center; margin: 120px;
+    margin-top: 150px;
+}
+.textsection
+{
+     width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+    font-size: 12px;
+    line-height: 3.9;
+}
+/* media query */
+ @media( max-width:768px) and (min-width:380px)
+{
+  .logo
+   {display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+} 
+.header{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    background-image: url(./mobile.webp);background-size: cover;
+    height: 1200px;
+    margin:0%
+  
+}
+ul li {margin: 3px;
+}
+.web-video{
+    display: none;
+}
+.videopart{
+    width: 100%;
+    height: 100%
+}
+.mobile-video{
+    display: block;
+}
+.searchbar{
+    display: none;
+}
+.banner2{ 
+    display: flex;
+    background-image: url(./cell-banner-2.webp);
+    background-image: cover ;
+    width: 100%;
+    height: 1200px;
+    flex-wrap: wrap;
+}
+footer h5{
+
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+
+}
+p{ visibility: hidden;
+}
+} 
+@media(max-width:380px)
+{
+.mobile-video{
+    display: block;}
+    .web-video{
+        display: none;
+    }
+    .searchbar{
+        display: none;
+    }
+    .logo{
+        width:auto
+    }
+    ul li{
+        margin-left: 3px;
+    }
+   .contianer{
+    width: 100%;
+   }
+   .header{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    background-image: url(./mobile.webp);background-size: cover;
+    margin:0%
+   }
+  
+    .section2{
+        width: 100%;
+        
+
+    }
+
+    .banner2{
+        display: flex;
+        background-image: url(./cell-banner-2.webp);
+        background-image: cover ;
+        width: 100%;
+        flex-wrap: wrap;
+    
+    }
+    footer{
+        width: 100%;
+
+    }
+    .text1{
+        display: none;
+    }
+.text4{
+    display: none;
+}
+}
+
